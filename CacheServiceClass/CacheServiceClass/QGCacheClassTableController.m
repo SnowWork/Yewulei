@@ -43,6 +43,7 @@ static NSString* ID = @"cell";
     //01 确定URL地址
     NSURL *url = [NSURL URLWithString:@"http://pic33.nipic.com/20130916/3420027_192919547000_2.jpg"];
     
+    NSLog(@"--");
     //02 把图片的二进制数据下载到本地
     NSData *imageData = [NSData dataWithContentsOfURL:url];
     
